@@ -1,0 +1,5 @@
+{"name": "Elden Ring", "window_title": "ELDEN RING",
+ "keybinds": {"forward": "w", "back": "s", "left": "a", "right": "d", "dash": "space", "jump": "f",
+  "interact": "e", "torrent": "e", "attack": "left", "heavy_attack": "shift", "map": "g", "use_item": "r",
+  "lock_on": "q", "menu": "esc", "confirm": "e", "map_cursor_up": "up", "map_cursor_down": "down",
+  "map_cursor_left": "left_arrow", "map_cursor_right": "right_arrow", "fast_travel": "f"}}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaming-companion"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = ["mss>=9", "Pillow>=10", "requests>=2.31", "pynput>=1.7; sys_platform == 'win32'", "mcp>=1.2,<2",
+  "pydirectinput>=1.0.4; sys_platform == 'win32'"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pyinstaller>=6"]
+
+[project.scripts]
+gaming-companion = "gaming_companion.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["gaming_companion*"]
+
+[tool.setuptools.package-data]
+gaming_companion = ["profiles/*.json"]

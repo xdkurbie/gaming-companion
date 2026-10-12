@@ -1,0 +1,4 @@
+{"name": "Dune Awakening", "window_title": "Dune",
+ "keybinds": {"forward": "w", "back": "s", "left": "a", "right": "d", "sprint": "shift", "jump": "space",
+  "crouch": "c", "interact": "e", "map": "m", "inventory": "tab", "attack": "left", "aim": "right",
+  "reload": "r", "suspensor": "x", "compass": "b"}}

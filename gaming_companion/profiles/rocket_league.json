@@ -1,0 +1,3 @@
+{"name": "Rocket League", "window_title": "Rocket League",
+ "keybinds": {"throttle": "w", "reverse": "s", "steer_left": "a", "steer_right": "d", "jump": "right",
+  "boost": "left", "powerslide": "shift", "air_roll": "shift", "ball_cam": "space", "scoreboard": "tab"}}
